@@ -1,7 +1,7 @@
 ## :pushpin: Personal portfolio
 #### :memo: Description: 
 
-Clean and modern Personal Portfolio with Home, Blog, Works and Contact pages.
+Clean and modern Personal portfolio with Home, Blog, Works and Contact pages.
 ___
 
 #### :link: Live Demo: 
