@@ -5,7 +5,7 @@ Clean and modern Personal Portfolio with Home, Blog, Works and Contact pages.
 ___
 
 #### :link: Live Demo: 
-[Cursor Music player app](https://vlad-yermolayev.github.io/cursor-music-player-app/)
+[Personal portfolio](https://vlad-yermolayev.github.io/personal-portfolio/)
 
 [Design](https://t.me/assedo_studio_templates/87)
 ___
