@@ -1,14 +1,10 @@
-<?php 
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio | Home page</title>
+  <title>Portfolio | Blog page</title>
   <meta name="description" conten="Some awesome description of our portfolio website">
 
   <!-- START Favicons -->
@@ -43,9 +39,12 @@
         </button>
         <ul class="header__menu">
           <li>
-            <a href="works.html">Works</a>
+            <a href="/">Home</a>
           </li>
           <li>
+            <a href="works.html">Works</a>
+          </li>
+          <li class="header__menu--active">
             <a href="blog.html">Blog</a>
           </li>
           <li>
@@ -55,31 +54,62 @@
       </nav>
   </header>
   <main>
-    <section class="home-hero">
-      <div class="container">
-        <picture>
-          <source srcset="img/avatar-desktop.png" media="(min-width: 992px)" width="243" height="243">
-          <img src="img/avatar-mobile.png" alt="Avatar" width="171" height="171">
-        </picture>
-        <div class="home-hero__description">
-          <h2>Hi, I am John,<br> Creative Technologist</h2>
-          <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-          <a href="#">Download Resume</a>
-        </div>
-      </div>
-    </section>
-    <section class="recent-posts">
+    <section class="recent-posts blog-posts">
       <div class="container">
         <div class="recent-posts__header">
-          <h2>Recent posts</h2>
+          <h2>Blog</h2>
           <a href="#">View all</a>
         </div>
         <ul>
           <li class="post">
             <a href="#">
-              <h3 class="post__title">Making a design system from scratch</h3>
+              <h3 class="post__title">UI Interactions of the week </h3>
               <div class="post__meta">
-                <span>12 Feb 2020</span> | <span>Design, Pattern</span>
+                <span>12 Feb 2020</span> | <span>Express, Handlebars</span>
+              </div>
+              <p class="post__description">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </a>
+          </li>
+          <li class="post">
+            <a href="#">
+              <h3 class="post__title">UI Interactions of the week </h3>
+              <div class="post__meta">
+                <span>12 Feb 2020</span> | <span>Express, Handlebars</span>
+              </div>
+              <p class="post__description">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </a>
+          </li>
+          <li class="post">
+            <a href="#">
+              <h3 class="post__title">UI Interactions of the week </h3>
+              <div class="post__meta">
+                <span>12 Feb 2020</span> | <span>Express, Handlebars</span>
+              </div>
+              <p class="post__description">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </a>
+          </li>
+          <li class="post">
+            <a href="#">
+              <h3 class="post__title">UI Interactions of the week </h3>
+              <div class="post__meta">
+                <span>12 Feb 2020</span> | <span>Express, Handlebars</span>
+              </div>
+              <p class="post__description">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </a>
+          </li>
+          <li class="post">
+            <a href="#">
+              <h3 class="post__title">Creating pixel perfect icons in Figma</h3>
+              <div class="post__meta">
+                <span>13 Feb 2021</span> | <span>Design, Pattern</span>
               </div>
               <p class="post__description">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
@@ -99,51 +129,6 @@
           </li>
         </ul>
         <a class="recent-posts__view-all" href="#">View all</a>
-      </div>
-    </section>
-    <section class="featured-works">
-      <div class="container">
-        <div class="featured-works__header">
-          <h2>Featured works</h2>
-        </div>
-        <ul>
-          <li class="work">
-            <a href="#">
-              <img src="img/designing-dashboards.jpg" alt="Designing Dashboards">
-              <div class="work__description">
-                <h3>Designing Dashboards</h3>
-                <div>
-                  <span>2020</span><span>Dashboard</span>
-                </div>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-              </div>
-            </a>
-          </li>
-          <li class="work">
-            <a href="#">
-              <img src="img/vibrant-portraits.jpg" alt="Vibrant Portraits of 2020">
-              <div class="work__description">
-                <h3>Vibrant Portraits of 2020</h3>
-                <div>
-                  <span>2018</span> <span>Illustration</span>
-                </div>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-              </div>
-            </a>
-          </li>
-          <li class="work">
-            <a href="#">
-              <img src="img/36-days-malayalam-type.jpg" alt="36 Days of Malayalam type">
-              <div class="work__description">
-                <h3>36 Days of Malayalam type</h3>
-                <div>
-                  <span>2018</span> <span>Typography</span>
-                </div>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-              </div>
-            </a>
-          </li>
-        </ul>
       </div>
     </section>
   </main>
